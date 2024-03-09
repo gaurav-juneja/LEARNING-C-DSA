@@ -11,6 +11,10 @@ int main()
     {
         cout << "Number is divisible by 5." << endl;
     }
+    else if (num < 0)
+    {
+        cout << "Number is Negative" << endl;
+    }
     else
     {
         cout << "Number is not divisible by 5." << endl;

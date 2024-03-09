@@ -11,8 +11,12 @@ int main()
     {
         cout << "Number is even." << endl;
     }
-    else
+    else if(num < 0)
     {
+        cout << "Number is negative." << endl;
+    }
+    
+    else{
         cout << "Number is odd." << endl;
     }
 
