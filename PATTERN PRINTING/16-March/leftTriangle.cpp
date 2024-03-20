@@ -6,16 +6,16 @@ int main()
     int row,col,num;
     cout<<"Enter the Number: ";
     cin>>num;
-    row=1;
-    while(row<=num)
+    row=num;
+    while(row>=1)
     {
         col=1;
-        while (col<=num)
+        while (col<=row)
         {
-            cout<<row<<" ";
+            cout<<col<<" ";
             col++;
         }
         cout<<endl;
-        row++;
+        row--;
     }
 }
