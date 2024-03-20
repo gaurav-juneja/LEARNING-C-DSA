@@ -3,11 +3,14 @@ using namespace std;
 
 int main()
 {
-    for (int i = 1; i <= 4; i++)
+    int row_col;
+    cout<< "Enter the number of rows and columns: ";
+    cin>>row_col;
+    for (int i = 1; i <= row_col; i++)
     {
-        for(int j = 1; j <= 4; j++)
+        for(int j = 1; j <= row_col; j++)
         {
-            cout<<j;
+            cout<<" "<<j;
         }
         cout<<endl;
     }
