@@ -3,9 +3,12 @@ using namespace std;
 
 int main()
 {
-    for (int i = 1; i <= 4; i++)
+    int row,col;
+    cout<< "Enter the number of rows: ";
+    cin>>row;
+    for (int i = 1; i <= row; i++)
     {
-        for(int j = 4; j >= i; j--)
+        for(int j = row; j >= i; j--)
         {
             cout<<"*";
         }
